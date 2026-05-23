@@ -1,0 +1,17 @@
+{
+  "patch": "PMV4 GitHub Site Status Patch v3 Fixed Args",
+  "patch_folder": "C:\\Users\\marcg\\Downloads\\PMV4_GITHUB_SITE_STATUS_PATCH_v3_FIXED_ARGS\\PMV4_GITHUB_SITE_STATUS_PATCH_v3_FIXED_ARGS",
+  "target_root": "C:\\Users\\marcg\\Documents\\kraken-bot\\profit-monkey-v4",
+  "files_to_copy": [
+    "UPDATE_GITHUB.bat",
+    "UPDATE_GITHUB_LOCAL_ONLY.bat",
+    "pm4/utilities/generate_github_v4_site.py",
+    "github/v4/index.html",
+    "github/v4/status.html",
+    "github/v4/README.md"
+  ],
+  "backups_created": [],
+  "ok": true,
+  "error": null,
+  "created_at": "2026-05-22T23:06:05"
+}
