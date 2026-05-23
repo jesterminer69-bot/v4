@@ -1,6 +1,6 @@
 {
   "site_generator_version": "pmv4_github_site_generator_0_2_6_scrooge_entry_exit_apply_display",
-  "generated_at": "2026-05-23T22:42:45.480631+00:00",
+  "generated_at": "2026-05-23T23:22:47.617825+00:00",
   "local_only": false,
   "root": "C:\\Users\\marcg\\Documents\\kraken-bot\\profit-monkey-v4",
   "last_bot_action": {
@@ -541,8 +541,8 @@
     "max_workers": 12,
     "max_cycles_without_promotion": 200,
     "state": "running",
-    "cycle": 2,
-    "cycles_without_promotion": 0,
+    "cycle": 6,
+    "cycles_without_promotion": 4,
     "github_auto_publish_interval_minutes": 30,
     "seed_source": "current active champions after applying all banked Scrooge candidates",
     "loaded_existing_bank": false,
@@ -904,8 +904,8 @@
         "principle": "Execute only explicit champion rules/parameters plus mechanical execution safeguards."
       }
     },
-    "updated_at": "2026-05-23T22:42:36+00:00",
-    "optimization_phase": "exit",
+    "updated_at": "2026-05-23T23:22:43+00:00",
+    "optimization_phase": "entry",
     "banked_regimes": [
       "BEAR_DUMP",
       "BULL_IMPULSE"
@@ -1029,14 +1029,14 @@
         "principle": "Execute only explicit champion rules/parameters plus mechanical execution safeguards."
       }
     },
-    "phase": "BULL_IMPULSE_short_children",
+    "phase": "SIDEWAYS_BULL_RANGE_short_children",
     "champion_progress": [
       {
         "regime": "BEAR_TREND",
         "champion_id": "PMV3_BEAR_TREND_scrooge_conservative_7891437451_SCROOGE_cooldown_200_C0001_20260523_142635",
         "parent_champion_id": "PMV3_BEAR_TREND_scrooge_conservative_7891437451",
         "is_banked": false,
-        "cycles_without_improvement": 4,
+        "cycles_without_improvement": 12,
         "banked_promotions_total": 2,
         "true_original_full_apr_percent": 1.228425,
         "current_seed_or_banked_full_apr_percent": 1.355338,
@@ -1063,7 +1063,7 @@
         "champion_id": "PMV3_SIDEWAYS_BEAR_RANGE_scrooge_aggressive_guarded_84AC925E68_SCROOGE_cooldown_150_C0001_20260523_142837",
         "parent_champion_id": "PMV3_SIDEWAYS_BEAR_RANGE_scrooge_aggressive_guarded_84AC925E68",
         "is_banked": false,
-        "cycles_without_improvement": 4,
+        "cycles_without_improvement": 12,
         "banked_promotions_total": 2,
         "true_original_full_apr_percent": 1.228425,
         "current_seed_or_banked_full_apr_percent": 1.355338,
@@ -1090,7 +1090,7 @@
         "champion_id": "PMV3_BEAR_DUMP_scrooge_aggressive_guarded_0FC202BA24_SCROOGE_size_down_50_C0001_20260523_143159_SCROOGE_profit_gate_C0001_20260523_144644_SCROOGE_selective_micro_C0001_20260523_145645_SCROOGE_cooldown_200_C0002_20260523_151110_SCROOGE_size_down_70_C0003_20260523_152301_SCROOGE_exit_profit_gate_C0001_20260523_172059",
         "parent_champion_id": "PMV3_BEAR_DUMP_scrooge_aggressive_guarded_0FC202BA24_SCROOGE_size_down_50_C0001_20260523_143159_SCROOGE_profit_gate_C0001_20260523_144644_SCROOGE_selective_micro_C0001_20260523_145645_SCROOGE_cooldown_200_C0002_20260523_151110_SCROOGE_size_down_70_C0003_20260523_152301",
         "is_banked": true,
-        "cycles_without_improvement": 2,
+        "cycles_without_improvement": 10,
         "banked_promotions_total": 2,
         "true_original_full_apr_percent": 1.228425,
         "current_seed_or_banked_full_apr_percent": 1.355338,
@@ -1117,7 +1117,7 @@
         "champion_id": "PMV3_HIGH_VOL_REVERSAL_scrooge_aggressive_guarded_1E3296B350_SCROOGE_profit_gate_C0001_20260523_150021",
         "parent_champion_id": "PMV3_HIGH_VOL_REVERSAL_scrooge_aggressive_guarded_1E3296B350",
         "is_banked": false,
-        "cycles_without_improvement": 4,
+        "cycles_without_improvement": 12,
         "banked_promotions_total": 2,
         "true_original_full_apr_percent": 1.228425,
         "current_seed_or_banked_full_apr_percent": 1.355338,
@@ -1144,7 +1144,7 @@
         "champion_id": "PMV3_SIDEWAYS_BULL_RANGE_scrooge_conservative_644724C5C5_SCROOGE_gentle_size_C0001_20260523_150148",
         "parent_champion_id": "PMV3_SIDEWAYS_BULL_RANGE_scrooge_conservative_644724C5C5",
         "is_banked": false,
-        "cycles_without_improvement": 4,
+        "cycles_without_improvement": 10,
         "banked_promotions_total": 2,
         "true_original_full_apr_percent": 1.228425,
         "current_seed_or_banked_full_apr_percent": 1.355338,
@@ -1171,7 +1171,7 @@
         "champion_id": "PMV3_BULL_PULLBACK_scrooge_aggressive_guarded_6E08DE02F2_SCROOGE_profit_quality_C0001_20260523_150412_SCROOGE_gentle_cooldown_C0002_20260523_151634",
         "parent_champion_id": "PMV3_BULL_PULLBACK_scrooge_aggressive_guarded_6E08DE02F2_SCROOGE_profit_quality_C0001_20260523_150412",
         "is_banked": false,
-        "cycles_without_improvement": 4,
+        "cycles_without_improvement": 10,
         "banked_promotions_total": 2,
         "true_original_full_apr_percent": 1.228425,
         "current_seed_or_banked_full_apr_percent": 1.355338,
@@ -1198,7 +1198,7 @@
         "champion_id": "PM3_BULL_IMPULSE_wallace_peak_full_forward_0p875x_161bd689e071_SCROOGE_profit_quality_C0001_20260523_150528_SCROOGE_exit_trail_guard_C0001_20260523_172745",
         "parent_champion_id": "PM3_BULL_IMPULSE_wallace_peak_full_forward_0p875x_161bd689e071_SCROOGE_profit_quality_C0001_20260523_150528",
         "is_banked": true,
-        "cycles_without_improvement": 1,
+        "cycles_without_improvement": 8,
         "banked_promotions_total": 2,
         "true_original_full_apr_percent": 1.228425,
         "current_seed_or_banked_full_apr_percent": 1.355338,
@@ -1224,23 +1224,9 @@
     "current_processes": [
       {
         "worker": "W1",
-        "mode": "exit_short",
-        "regime": "BULL_IMPULSE",
-        "candidate": "exit_profit_quality",
-        "status": "QUEUED/RUNNING"
-      },
-      {
-        "worker": "W2",
-        "mode": "exit_short",
-        "regime": "BULL_IMPULSE",
-        "candidate": "exit_trail_guard",
-        "status": "QUEUED/RUNNING"
-      },
-      {
-        "worker": "W3",
-        "mode": "exit_short",
-        "regime": "BULL_IMPULSE",
-        "candidate": "exit_stop_guard",
+        "mode": "entry_short",
+        "regime": "SIDEWAYS_BULL_RANGE",
+        "candidate": "entry_gentle_size",
         "status": "QUEUED/RUNNING"
       }
     ],
