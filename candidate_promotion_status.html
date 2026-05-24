@@ -1,28 +1,31 @@
 <!doctype html>
 <html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>PMV4 Candidate Promotion</title>
 <style>body{font-family:Arial,sans-serif;background:#0b1020;color:#e9eefc;margin:0;padding:24px}.card{background:#151d34;border:1px solid #263457;border-radius:14px;padding:18px;margin:12px 0}pre{white-space:pre-wrap;background:#070b16;padding:14px;border-radius:10px;overflow:auto}a{color:#8cc7ff}</style></head>
-<body><h1>PMV4 Candidate Promotion</h1><p><a href="index.html">Back to hub</a></p><div class="card"><b>Updated:</b> 2026-05-24T04:22:16+00:00<br><b>Version:</b> pmv4_candidate_promotion_0_1_1_dynamic_gatekeeper</div><div class="card"><pre>{
+<body><h1>PMV4 Candidate Promotion</h1><p><a href="index.html">Back to hub</a></p><div class="card"><b>Updated:</b> 2026-05-24T13:14:59+00:00<br><b>Version:</b> pmv4_candidate_promotion_0_1_1_dynamic_gatekeeper</div><div class="card"><pre>{
   "version": "pmv4_candidate_promotion_0_1_1_dynamic_gatekeeper",
-  "applied_at": "2026-05-24T04:22:16+00:00",
-  "source_label": "scrooge_bank",
-  "active_backup": "C:\\Users\\marcg\\Documents\\kraken-bot\\profit-monkey-v4\\output\\reports\\pm4\\candidate_promotion\\candidate_promotion_20260523_231351\\apply_backups\\active_champions_before_promotion_20260523_232201.json",
+  "applied_at": "2026-05-24T13:14:59+00:00",
+  "source_label": "gatekeeper_bank",
+  "active_backup": "C:\\Users\\marcg\\Documents\\kraken-bot\\profit-monkey-v4\\output\\reports\\pm4\\candidate_promotion\\candidate_promotion_20260524_075403\\apply_backups\\active_champions_before_promotion_20260524_081443.json",
   "archived_replaced_champions": [
-    "C_\\Users\\marcg\\Documents\\kraken-bot\\profit-monkey-v4\\data\\champions\\archive\\candidate_promotion_20260523_232201\\replaced_BEAR_TREND_PMV3_BEAR_TREND_scrooge_conservative_789.json",
-    "C_\\Users\\marcg\\Documents\\kraken-bot\\profit-monkey-v4\\data\\champions\\archive\\candidate_promotion_20260523_232201\\replaced_SIDEWAYS_BULL_RANGE_PMV3_SIDEWAYS_BULL_RANGE_scrooge_conserv.json"
+    "C_\\Users\\marcg\\Documents\\kraken-bot\\profit-monkey-v4\\data\\champions\\archive\\candidate_promotion_20260524_081443\\replaced_BEAR_DUMP_PMV3_BEAR_DUMP_scrooge_aggressive_guarde.json",
+    "C_\\Users\\marcg\\Documents\\kraken-bot\\profit-monkey-v4\\data\\champions\\archive\\candidate_promotion_20260524_081443\\replaced_BEAR_TREND_PMV3_BEAR_TREND_scrooge_conservative_789.json",
+    "C_\\Users\\marcg\\Documents\\kraken-bot\\profit-monkey-v4\\data\\champions\\archive\\candidate_promotion_20260524_081443\\replaced_HIGH_VOL_REVERSAL_PMV3_HIGH_VOL_REVERSAL_scrooge_aggressiv.json",
+    "C_\\Users\\marcg\\Documents\\kraken-bot\\profit-monkey-v4\\data\\champions\\archive\\candidate_promotion_20260524_081443\\replaced_SIDEWAYS_BEAR_RANGE_PMV3_SIDEWAYS_BEAR_RANGE_scrooge_aggress.json",
+    "C_\\Users\\marcg\\Documents\\kraken-bot\\profit-monkey-v4\\data\\champions\\archive\\candidate_promotion_20260524_081443\\replaced_SIDEWAYS_BULL_RANGE_PMV3_SIDEWAYS_BULL_RANGE_scrooge_conserv.json"
   ],
   "promotion_plan": [
     {
       "regime": "BEAR_DUMP",
-      "source": "active",
+      "source": "gatekeeper",
       "old_champion_id": "PMV3_BEAR_DUMP_scrooge_aggressive_guarded_0FC202BA24_SCROOGE_size_down_50_C0001_20260523_143159_SCROOGE_profit_gate_C0001_20260523_144644_SCROOGE_selective_micro_C0001_20260523_145645_SCROOGE_cooldown_200_C0002_20260523_151110_SCROOGE_size_down_70_C0003_20260523_152301_SCROOGE_exit_profit_gate_C0001_20260523_172059",
-      "new_champion_id": "PMV3_BEAR_DUMP_scrooge_aggressive_guarded_0FC202BA24_SCROOGE_size_down_50_C0001_20260523_143159_SCROOGE_profit_gate_C0001_20260523_144644_SCROOGE_selective_micro_C0001_20260523_145645_SCROOGE_cooldown_200_C0002_20260523_151110_SCROOGE_size_down_70_C0003_20260523_152301_SCROOGE_exit_profit_gate_C0001_20260523_172059",
-      "changed": false
+      "new_champion_id": "PMV3_BEAR_DUMP_scrooge_aggressive_guarded_0FC202BA24_SCROOGE_size_down_50_C0001_20260523_143159_SCROOGE_profit_gate_C0001_20260523_144644_SCROOGE_selective_micro_C0001_20260523_145645_SCROOGE_cooldown_200_C0002_20260523_151110_SCROOGE_size_down_70_C0003_20260523_152301_SCROOGE_exit_profit_gate_C0001_20260523_172059_GATEKEEPER_selective_low_churn_C0001_20260523_233747_GATEKEEPER_churn_blocker_C0001_20260523_234200_GATEKEEPER_dd_governor_C0001_20260523_234611_GATEKEEPER_dd_governor_C0001_20260523_235015",
+      "changed": true
     },
     {
       "regime": "BEAR_TREND",
-      "source": "scrooge",
-      "old_champion_id": "PMV3_BEAR_TREND_scrooge_conservative_7891437451_SCROOGE_cooldown_200_C0001_20260523_142635",
-      "new_champion_id": "PMV3_BEAR_TREND_scrooge_conservative_7891437451_SCROOGE_cooldown_200_C0001_20260523_142635_SCROOGE_exit_fast_fail_C0001_20260523_223605",
+      "source": "gatekeeper",
+      "old_champion_id": "PMV3_BEAR_TREND_scrooge_conservative_7891437451_SCROOGE_cooldown_200_C0001_20260523_142635_SCROOGE_exit_fast_fail_C0001_20260523_223605",
+      "new_champion_id": "PMV3_BEAR_TREND_scrooge_conservative_7891437451_SCROOGE_cooldown_200_C0001_20260523_142635_SCROOGE_exit_fast_fail_C0001_20260523_223605_GATEKEEPER_selective_low_churn_C0001_20260523_233806",
       "changed": true
     },
     {
@@ -48,37 +51,37 @@
     },
     {
       "regime": "HIGH_VOL_REVERSAL",
-      "source": "active",
+      "source": "gatekeeper",
       "old_champion_id": "PMV3_HIGH_VOL_REVERSAL_scrooge_aggressive_guarded_1E3296B350_SCROOGE_profit_gate_C0001_20260523_150021_HAWKEYE_stop_loss_pct_down_S1_C0001_20260523_201905",
-      "new_champion_id": "PMV3_HIGH_VOL_REVERSAL_scrooge_aggressive_guarded_1E3296B350_SCROOGE_profit_gate_C0001_20260523_150021_HAWKEYE_stop_loss_pct_down_S1_C0001_20260523_201905",
-      "changed": false
+      "new_champion_id": "PMV3_HIGH_VOL_REVERSAL_scrooge_aggressive_guarded_1E3296B350_SCROOGE_profit_gate_C0001_20260523_150021_HAWKEYE_stop_loss_pct_down_S1_C0001_20260523_201905_GATEKEEPER_selective_low_churn_C0001_20260523_234312_GATEKEEPER_selective_low_churn_C0001_20260523_234723_GATEKEEPER_selective_low_churn_C0001_20260523_235127_GATEKEEPER_fee_edge_gate_C0001_20260523_235529_GATEKEEPER_selective_low_churn_C0001_20260523_235931_GATEKEEPER_churn_blocker_C0001_20260524_000333_GATEKEEPER_dd_governor_C0001_20260524_000737",
+      "changed": true
     },
     {
       "regime": "SIDEWAYS_BEAR_RANGE",
-      "source": "active",
+      "source": "gatekeeper",
       "old_champion_id": "PMV3_SIDEWAYS_BEAR_RANGE_scrooge_aggressive_guarded_84AC925E68_SCROOGE_cooldown_150_C0001_20260523_142837_HAWKEYE_profit_target_pct_up_S1_C0001_20260523_200851",
-      "new_champion_id": "PMV3_SIDEWAYS_BEAR_RANGE_scrooge_aggressive_guarded_84AC925E68_SCROOGE_cooldown_150_C0001_20260523_142837_HAWKEYE_profit_target_pct_up_S1_C0001_20260523_200851",
-      "changed": false
+      "new_champion_id": "PMV3_SIDEWAYS_BEAR_RANGE_scrooge_aggressive_guarded_84AC925E68_SCROOGE_cooldown_150_C0001_20260523_142837_HAWKEYE_profit_target_pct_up_S1_C0001_20260523_200851_GATEKEEPER_selective_low_churn_C0001_20260523_234330_GATEKEEPER_churn_blocker_C0001_20260523_234741_GATEKEEPER_dd_governor_C0001_20260523_235144_GATEKEEPER_selective_low_churn_C0001_20260523_235547_GATEKEEPER_selective_low_churn_C0001_20260523_235949_GATEKEEPER_selective_low_churn_C0001_20260524_000351",
+      "changed": true
     },
     {
       "regime": "SIDEWAYS_BULL_RANGE",
-      "source": "scrooge",
-      "old_champion_id": "PMV3_SIDEWAYS_BULL_RANGE_scrooge_conservative_644724C5C5_SCROOGE_gentle_size_C0001_20260523_150148_HAWKEYE_profit_target_pct_up_S1_C0001_20260523_202243_HAWKEYE_profit_target_pct_up_S1_C0001_20260523_202256_HAWKEYE_profit_target_pct_up_S1_C0002_20260523_205315_HAWKEYE_profit_target_pct_up_S1_C0002_20260523_205328_HAWKEYE_min_bars_between_buys_up_S1_C0003_20260523_212354_HAWKEYE_min_bars_between_buys_up_S1_C0003_20260523_212418_HAWKEYE_profit_target_pct_up_S1_C0004_20260523_215340_HAWKEYE_profit_target_pct_up_S2_C0004_20260523_215354",
-      "new_champion_id": "PMV3_SIDEWAYS_BULL_RANGE_scrooge_conservative_644724C5C5_SCROOGE_gentle_size_C0001_20260523_150148_HAWKEYE_profit_target_pct_up_S1_C0001_20260523_202243_HAWKEYE_profit_target_pct_up_S1_C0001_20260523_202256_HAWKEYE_profit_target_pct_up_S1_C0002_20260523_205315_HAWKEYE_profit_target_pct_up_S1_C0002_20260523_205328_HAWKEYE_min_bars_between_buys_up_S1_C0003_20260523_212354_HAWKEYE_min_bars_between_buys_up_S1_C0003_20260523_212418_HAWKEYE_profit_target_pct_up_S1_C0004_20260523_215340_HAWKEYE_profit_target_pct_up_S2_C0004_20260523_215354_SCROOGE_exit_stop_guard_C0001_20260523_225103",
+      "source": "gatekeeper",
+      "old_champion_id": "PMV3_SIDEWAYS_BULL_RANGE_scrooge_conservative_644724C5C5_SCROOGE_gentle_size_C0001_20260523_150148_HAWKEYE_profit_target_pct_up_S1_C0001_20260523_202243_HAWKEYE_profit_target_pct_up_S1_C0001_20260523_202256_HAWKEYE_profit_target_pct_up_S1_C0002_20260523_205315_HAWKEYE_profit_target_pct_up_S1_C0002_20260523_205328_HAWKEYE_min_bars_between_buys_up_S1_C0003_20260523_212354_HAWKEYE_min_bars_between_buys_up_S1_C0003_20260523_212418_HAWKEYE_profit_target_pct_up_S1_C0004_20260523_215340_HAWKEYE_profit_target_pct_up_S2_C0004_20260523_215354_SCROOGE_exit_stop_guard_C0001_20260523_225103",
+      "new_champion_id": "PMV3_SIDEWAYS_BULL_RANGE_scrooge_conservative_644724C5C5_SCROOGE_gentle_size_C0001_20260523_150148_HAWKEYE_profit_target_pct_up_S1_C0001_20260523_202243_HAWKEYE_profit_target_pct_up_S1_C0001_20260523_202256_HAWKEYE_profit_target_pct_up_S1_C0002_20260523_205315_HAWKEYE_profit_target_pct_up_S1_C0002_20260523_205328_HAWKEYE_min_bars_between_buys_up_S1_C0003_20260523_212354_HAWKEYE_min_bars_between_buys_up_S1_C0003_20260523_212418_HAWKEYE_profit_target_pct_up_S1_C0004_20260523_215340_HAWKEYE_profit_target_pct_up_S2_C0004_20260523_215354_SCROOGE_exit_stop_guard_C0001_20260523_225103_GATEKEEPER_dd_throttle_light_C0001_20260523_234348",
       "changed": true
     }
   ],
   "pre_apply_test_result": {
     "ok": true,
-    "run_id": "pmv4_strict_champion_contract_20260523_231432",
-    "apr_percent": 5.252788,
-    "total_return_percent": 29.189955,
-    "ending_equity": 12918.995543,
-    "max_drawdown_pct": -7.955307,
-    "trade_count": 1558,
-    "completed_round_trips": 779,
-    "fees_paid": 1974.233969,
-    "created_at": "2026-05-24T04:14:48+00:00",
+    "run_id": "pmv4_strict_champion_contract_20260524_075431",
+    "apr_percent": 6.025111,
+    "total_return_percent": 34.002547,
+    "ending_equity": 13400.254728,
+    "max_drawdown_pct": -7.935246,
+    "trade_count": 1172,
+    "completed_round_trips": 586,
+    "fees_paid": 1593.273729,
+    "created_at": "2026-05-24T12:54:47+00:00",
     "per_regime": {
       "BULL_IMPULSE": {
         "rows": 38635,
@@ -86,131 +89,128 @@
         "buys": 42,
         "sells": 41,
         "start_equity": 10000.0,
-        "end_equity": 13285.418398462753,
+        "end_equity": 13626.406661173398,
         "blocked": {
           "explicit_entry_rule": 26266,
           "explicit_cooldown_active": 737,
           "position_open_no_explicit_dca_permission": 11549
         },
-        "return_pct": 32.854184
+        "return_pct": 36.264067
       },
       "CRASH": {
         "rows": 7074,
-        "trades": 3,
+        "trades": 1,
         "buys": 0,
-        "sells": 3,
+        "sells": 1,
         "start_equity": 10176.752439158854,
-        "end_equity": 13120.695620695784,
+        "end_equity": 13405.451546182981,
         "blocked": {
-          "cash_protection_no_position": 7071
+          "cash_protection_no_position": 7073
         },
-        "return_pct": 28.92812
+        "return_pct": 31.726222
       },
       "SIDEWAYS_BULL_RANGE": {
         "rows": 173717,
-        "trades": 475,
-        "buys": 236,
-        "sells": 239,
+        "trades": 484,
+        "buys": 241,
+        "sells": 243,
         "start_equity": 10176.752439158854,
-        "end_equity": 13086.121115159542,
+        "end_equity": 13404.58247235566,
         "blocked": {
-          "explicit_entry_rule": 166224,
-          "explicit_cooldown_active": 5595,
-          "position_open_no_explicit_dca_permission": 1423
+          "explicit_entry_rule": 166213,
+          "explicit_cooldown_active": 5702,
+          "position_open_no_explicit_dca_permission": 1318
         },
-        "return_pct": 28.58838
+        "return_pct": 31.717683
       },
       "BULL_PULLBACK": {
         "rows": 9104,
         "trades": 47,
         "buys": 24,
         "sells": 23,
-        "start_equity": 10161.68978069695,
-        "end_equity": 12130.090603620201,
+        "start_equity": 10163.904527189123,
+        "end_equity": 12139.894067094572,
         "blocked": {
           "explicit_entry_rule": 7214,
           "explicit_cooldown_active": 701,
           "position_open_no_explicit_dca_permission": 1142
         },
-        "return_pct": 19.370802
+        "return_pct": 19.441245
       },
       "SIDEWAYS_BEAR_RANGE": {
         "rows": 98058,
-        "trades": 304,
-        "buys": 152,
-        "sells": 152,
-        "start_equity": 12130.090603620201,
-        "end_equity": 13089.621191149035,
+        "trades": 21,
+        "buys": 9,
+        "sells": 12,
+        "start_equity": 12139.894067094572,
+        "end_equity": 13411.296633087048,
         "blocked": {
-          "explicit_entry_rule": 94597,
-          "explicit_cooldown_active": 2889,
-          "position_open_no_explicit_dca_permission": 268
+          "explicit_entry_rule": 94683,
+          "explicit_cooldown_active": 3354
         },
-        "return_pct": 7.910333
+        "return_pct": 10.47293
       },
       "BEAR_DUMP": {
         "rows": 19215,
-        "trades": 38,
-        "buys": 19,
-        "sells": 19,
-        "start_equity": 12109.638489975305,
-        "end_equity": 11922.970687767089,
+        "trades": 10,
+        "buys": 5,
+        "sells": 5,
+        "start_equity": 12139.894067094572,
+        "end_equity": 12055.73107293917,
         "blocked": {
-          "explicit_entry_rule": 16189,
-          "explicit_cooldown_active": 2976,
-          "position_open_no_explicit_dca_permission": 12
+          "explicit_entry_rule": 16192,
+          "explicit_cooldown_active": 3013
         },
-        "return_pct": -1.541481
+        "return_pct": -0.693276
       },
       "BEAR_TREND": {
         "rows": 141601,
-        "trades": 511,
-        "buys": 257,
-        "sells": 254,
-        "start_equity": 12109.707223827356,
-        "end_equity": 12919.364731838437,
+        "trades": 515,
+        "buys": 260,
+        "sells": 255,
+        "start_equity": 12139.46481134315,
+        "end_equity": 13400.46534273066,
         "blocked": {
-          "explicit_cooldown_active": 62123,
+          "explicit_cooldown_active": 62217,
           "explicit_entry_rule": 68728,
-          "position_open_no_explicit_dca_permission": 10239
+          "position_open_no_explicit_dca_permission": 10141
         },
-        "return_pct": 6.686021
+        "return_pct": 10.387612
       },
       "HIGH_VOL_REVERSAL": {
         "rows": 37490,
-        "trades": 96,
-        "buys": 49,
-        "sells": 47,
-        "start_equity": 12101.908130311363,
-        "end_equity": 12936.54233876489,
+        "trades": 10,
+        "buys": 5,
+        "sells": 5,
+        "start_equity": 12125.047190760479,
+        "end_equity": 13412.371132203647,
         "blocked": {
-          "explicit_cooldown_active": 2875,
-          "explicit_entry_rule": 18536,
-          "position_open_no_explicit_dca_permission": 15983
+          "explicit_cooldown_active": 18907,
+          "explicit_entry_rule": 18573
         },
-        "return_pct": 6.896716
+        "return_pct": 10.617063
       }
     },
     "blocked_counts": {
-      "explicit_entry_rule": 397754,
-      "explicit_cooldown_active": 77896,
-      "position_open_no_explicit_dca_permission": 40616,
-      "cash_protection_no_position": 7071
+      "explicit_entry_rule": 397869,
+      "explicit_cooldown_active": 94631,
+      "position_open_no_explicit_dca_permission": 24150,
+      "cash_protection_no_position": 7073
     },
     "windows_used": 75,
     "rows_processed": 524894
   },
   "post_apply_validation": {
     "ok": true,
-    "run_id": "pmv4_strict_champion_contract_20260523_232201",
-    "apr_percent": 5.252788,
-    "total_return_percent": 29.189955,
-    "ending_equity": 12918.995543,
-    "max_drawdown_pct": -7.955307,
-    "trade_count": 1558,
-    "completed_round_trips": 779,
-    "fees_paid": 1974.233969,
-    "created_at": "2026-05-24T04:22:16+00:00",
+    "run_id": "pmv4_strict_champion_contract_20260524_081443",
+    "apr_percent": 6.025111,
+    "total_return_percent": 34.002547,
+    "ending_equity": 13400.254728,
+    "max_drawdown_pct": -7.935246,
+    "trade_count": 1172,
+    "completed_round_trips": 586,
+    "fees_paid": 1593.273729,
+    "created_at": "2026-05-24T13:14:59+00:00",
     "per_regime": {
       "BULL_IMPULSE": {
         "rows": 38635,
@@ -218,116 +218,113 @@
         "buys": 42,
         "sells": 41,
         "start_equity": 10000.0,
-        "end_equity": 13285.418398462753,
+        "end_equity": 13626.406661173398,
         "blocked": {
           "explicit_entry_rule": 26266,
           "explicit_cooldown_active": 737,
           "position_open_no_explicit_dca_permission": 11549
         },
-        "return_pct": 32.854184
+        "return_pct": 36.264067
       },
       "CRASH": {
         "rows": 7074,
-        "trades": 3,
+        "trades": 1,
         "buys": 0,
-        "sells": 3,
+        "sells": 1,
         "start_equity": 10176.752439158854,
-        "end_equity": 13120.695620695784,
+        "end_equity": 13405.451546182981,
         "blocked": {
-          "cash_protection_no_position": 7071
+          "cash_protection_no_position": 7073
         },
-        "return_pct": 28.92812
+        "return_pct": 31.726222
       },
       "SIDEWAYS_BULL_RANGE": {
         "rows": 173717,
-        "trades": 475,
-        "buys": 236,
-        "sells": 239,
+        "trades": 484,
+        "buys": 241,
+        "sells": 243,
         "start_equity": 10176.752439158854,
-        "end_equity": 13086.121115159542,
+        "end_equity": 13404.58247235566,
         "blocked": {
-          "explicit_entry_rule": 166224,
-          "explicit_cooldown_active": 5595,
-          "position_open_no_explicit_dca_permission": 1423
+          "explicit_entry_rule": 166213,
+          "explicit_cooldown_active": 5702,
+          "position_open_no_explicit_dca_permission": 1318
         },
-        "return_pct": 28.58838
+        "return_pct": 31.717683
       },
       "BULL_PULLBACK": {
         "rows": 9104,
         "trades": 47,
         "buys": 24,
         "sells": 23,
-        "start_equity": 10161.68978069695,
-        "end_equity": 12130.090603620201,
+        "start_equity": 10163.904527189123,
+        "end_equity": 12139.894067094572,
         "blocked": {
           "explicit_entry_rule": 7214,
           "explicit_cooldown_active": 701,
           "position_open_no_explicit_dca_permission": 1142
         },
-        "return_pct": 19.370802
+        "return_pct": 19.441245
       },
       "SIDEWAYS_BEAR_RANGE": {
         "rows": 98058,
-        "trades": 304,
-        "buys": 152,
-        "sells": 152,
-        "start_equity": 12130.090603620201,
-        "end_equity": 13089.621191149035,
+        "trades": 21,
+        "buys": 9,
+        "sells": 12,
+        "start_equity": 12139.894067094572,
+        "end_equity": 13411.296633087048,
         "blocked": {
-          "explicit_entry_rule": 94597,
-          "explicit_cooldown_active": 2889,
-          "position_open_no_explicit_dca_permission": 268
+          "explicit_entry_rule": 94683,
+          "explicit_cooldown_active": 3354
         },
-        "return_pct": 7.910333
+        "return_pct": 10.47293
       },
       "BEAR_DUMP": {
         "rows": 19215,
-        "trades": 38,
-        "buys": 19,
-        "sells": 19,
-        "start_equity": 12109.638489975305,
-        "end_equity": 11922.970687767089,
+        "trades": 10,
+        "buys": 5,
+        "sells": 5,
+        "start_equity": 12139.894067094572,
+        "end_equity": 12055.73107293917,
         "blocked": {
-          "explicit_entry_rule": 16189,
-          "explicit_cooldown_active": 2976,
-          "position_open_no_explicit_dca_permission": 12
+          "explicit_entry_rule": 16192,
+          "explicit_cooldown_active": 3013
         },
-        "return_pct": -1.541481
+        "return_pct": -0.693276
       },
       "BEAR_TREND": {
         "rows": 141601,
-        "trades": 511,
-        "buys": 257,
-        "sells": 254,
-        "start_equity": 12109.707223827356,
-        "end_equity": 12919.364731838437,
+        "trades": 515,
+        "buys": 260,
+        "sells": 255,
+        "start_equity": 12139.46481134315,
+        "end_equity": 13400.46534273066,
         "blocked": {
-          "explicit_cooldown_active": 62123,
+          "explicit_cooldown_active": 62217,
           "explicit_entry_rule": 68728,
-          "position_open_no_explicit_dca_permission": 10239
+          "position_open_no_explicit_dca_permission": 10141
         },
-        "return_pct": 6.686021
+        "return_pct": 10.387612
       },
       "HIGH_VOL_REVERSAL": {
         "rows": 37490,
-        "trades": 96,
-        "buys": 49,
-        "sells": 47,
-        "start_equity": 12101.908130311363,
-        "end_equity": 12936.54233876489,
+        "trades": 10,
+        "buys": 5,
+        "sells": 5,
+        "start_equity": 12125.047190760479,
+        "end_equity": 13412.371132203647,
         "blocked": {
-          "explicit_cooldown_active": 2875,
-          "explicit_entry_rule": 18536,
-          "position_open_no_explicit_dca_permission": 15983
+          "explicit_cooldown_active": 18907,
+          "explicit_entry_rule": 18573
         },
-        "return_pct": 6.896716
+        "return_pct": 10.617063
       }
     },
     "blocked_counts": {
-      "explicit_entry_rule": 397754,
-      "explicit_cooldown_active": 77896,
-      "position_open_no_explicit_dca_permission": 40616,
-      "cash_protection_no_position": 7071
+      "explicit_entry_rule": 397869,
+      "explicit_cooldown_active": 94631,
+      "position_open_no_explicit_dca_permission": 24150,
+      "cash_protection_no_position": 7073
     },
     "windows_used": 75,
     "rows_processed": 524894

@@ -1,4 +1,139 @@
 {
-  "state": "not running",
-  "updated_at": null
+  "version": "pmv4_gatekeeper_engine_0_1_4_live_display",
+  "state": "stopped_by_user",
+  "mode": "infinite_loop_123",
+  "started_at": "2026-05-24T12:53:05+00:00",
+  "updated_at": "2026-05-24T12:53:54+00:00",
+  "cycle": 0,
+  "workers": 12,
+  "logical_processors": 16,
+  "cpu_cap_percent": 75,
+  "baseline_complete": {
+    "ok": true,
+    "mode": "complete",
+    "target_regime": null,
+    "windows_used": 75,
+    "rows_processed": 524894,
+    "trade_count": 1558,
+    "completed_round_trips": 779,
+    "fees_paid": 1974.233969,
+    "max_drawdown_pct": -7.955307,
+    "money_proof": {
+      "annualized_apr_percent": 5.252788,
+      "total_return_percent": 29.189955,
+      "ending_equity": 12918.995543
+    },
+    "apr_percent": 5.252788,
+    "total_return_percent": 29.189955,
+    "ending_equity": 12918.995543,
+    "blocked_counts": {
+      "explicit_entry_rule": 397754,
+      "explicit_cooldown_active": 77896,
+      "position_open_no_explicit_dca_permission": 40616,
+      "cash_protection_no_position": 7071
+    },
+    "per_regime": {
+      "BULL_IMPULSE": {
+        "rows": 38635,
+        "trades": 83,
+        "buys": 42,
+        "sells": 41,
+        "start_equity": 10000.0,
+        "end_equity": 13285.418398462753,
+        "fees": 876.469675,
+        "return_pct": 32.854184
+      },
+      "CRASH": {
+        "rows": 7074,
+        "trades": 3,
+        "buys": 0,
+        "sells": 3,
+        "start_equity": 10176.752439158854,
+        "end_equity": 13120.695620695784,
+        "fees": 1.852144,
+        "return_pct": 28.92812
+      },
+      "SIDEWAYS_BULL_RANGE": {
+        "rows": 173717,
+        "trades": 475,
+        "buys": 236,
+        "sells": 239,
+        "start_equity": 10176.752439158854,
+        "end_equity": 13086.121115159542,
+        "fees": 233.376719,
+        "return_pct": 28.58838
+      },
+      "BULL_PULLBACK": {
+        "rows": 9104,
+        "trades": 47,
+        "buys": 24,
+        "sells": 23,
+        "start_equity": 10161.68978069695,
+        "end_equity": 12130.090603620201,
+        "fees": 349.014133,
+        "return_pct": 19.370802
+      },
+      "SIDEWAYS_BEAR_RANGE": {
+        "rows": 98058,
+        "trades": 304,
+        "buys": 152,
+        "sells": 152,
+        "start_equity": 12130.090603620201,
+        "end_equity": 13089.621191149035,
+        "fees": 240.476961,
+        "return_pct": 7.910333
+      },
+      "BEAR_DUMP": {
+        "rows": 19215,
+        "trades": 38,
+        "buys": 19,
+        "sells": 19,
+        "start_equity": 12109.638489975305,
+        "end_equity": 11922.970687767089,
+        "fees": 3.537138,
+        "return_pct": -1.541481
+      },
+      "BEAR_TREND": {
+        "rows": 141601,
+        "trades": 511,
+        "buys": 257,
+        "sells": 254,
+        "start_equity": 12109.707223827356,
+        "end_equity": 12919.364731838437,
+        "fees": 178.7629,
+        "return_pct": 6.686021
+      },
+      "HIGH_VOL_REVERSAL": {
+        "rows": 37490,
+        "trades": 96,
+        "buys": 49,
+        "sells": 47,
+        "start_equity": 12101.908130311363,
+        "end_equity": 12936.54233876489,
+        "fees": 90.375272,
+        "return_pct": 6.896716
+      }
+    },
+    "executor_metadata": {
+      "executor_version": "pmv4_strict_champion_contract_executor_0_1_0",
+      "live_equivalent_execution": true,
+      "strict_champion_contract": true,
+      "family_inferred_rules_allowed": false,
+      "tester_contains_strategy_logic": false,
+      "intended_users": [
+        "full_validation",
+        "future_live_bot"
+      ],
+      "principle": "Execute only explicit champion rules/parameters plus mechanical execution safeguards."
+    }
+  },
+  "banked_regimes": [
+    "BEAR_DUMP",
+    "BEAR_TREND",
+    "HIGH_VOL_REVERSAL",
+    "SIDEWAYS_BEAR_RANGE",
+    "SIDEWAYS_BULL_RANGE"
+  ],
+  "promotion_rule": "Gatekeeper banks only. Candidate Promotion remains the official apply path.",
+  "stopped_at": "2026-05-24T12:53:54+00:00"
 }
