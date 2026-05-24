@@ -1,0 +1,583 @@
+{
+  "version": "pmv4_hawkeye_single_variable_infinite_0_1_0",
+  "run_id": "hawkeye_infinite_20260523_200242",
+  "started_at": "2026-05-24T01:02:42+00:00",
+  "root": "C:\\Users\\marcg\\Documents\\kraken-bot\\profit-monkey-v4",
+  "cpu_cap_percent": 75,
+  "logical_cores": 16,
+  "max_workers": 12,
+  "max_cycles_without_promotion": 200,
+  "github_auto_publish_interval_minutes": 30,
+  "seed_source": "current active champions",
+  "loaded_existing_bank": false,
+  "state": "running",
+  "reports_dir": "C:\\Users\\marcg\\Documents\\kraken-bot\\profit-monkey-v4\\output\\reports\\pm4\\hawkeye",
+  "phase": "BULL_IMPULSE_profit_target_pct",
+  "cycle": 1,
+  "cycles_without_promotion": 0,
+  "baseline_complete": {
+    "ok": true,
+    "mode": "complete",
+    "target_regime": null,
+    "windows_used": 75,
+    "rows_processed": 524894,
+    "trade_count": 1632,
+    "completed_round_trips": 816,
+    "fees_paid": 1102.277232,
+    "max_drawdown_pct": -4.487151,
+    "money_proof": {
+      "annualized_apr_percent": 1.355338,
+      "total_return_percent": 6.966823,
+      "ending_equity": 10696.682277
+    },
+    "apr_percent": 1.355338,
+    "total_return_percent": 6.966823,
+    "ending_equity": 10696.682277,
+    "blocked_counts": {
+      "explicit_entry_rule": 397720,
+      "explicit_cooldown_active": 75424,
+      "position_open_no_explicit_dca_permission": 43048,
+      "cash_protection_no_position": 7071
+    },
+    "per_regime": {
+      "BULL_IMPULSE": {
+        "rows": 38635,
+        "trades": 85,
+        "buys": 43,
+        "sells": 42,
+        "start_equity": 10000.0,
+        "end_equity": 10980.786867290033,
+        "fees": 370.331863,
+        "return_pct": 9.807869
+      },
+      "CRASH": {
+        "rows": 7074,
+        "trades": 3,
+        "buys": 0,
+        "sells": 3,
+        "start_equity": 10034.759546064097,
+        "end_equity": 10875.52954324965,
+        "fees": 1.607593,
+        "return_pct": 8.378576
+      },
+      "SIDEWAYS_BULL_RANGE": {
+        "rows": 173717,
+        "trades": 566,
+        "buys": 282,
+        "sells": 284,
+        "start_equity": 10034.759546064097,
+        "end_equity": 10837.038757667435,
+        "fees": 231.433468,
+        "return_pct": 7.995002
+      },
+      "BULL_PULLBACK": {
+        "rows": 9104,
+        "trades": 46,
+        "buys": 23,
+        "sells": 23,
+        "start_equity": 10026.502941807797,
+        "end_equity": 10756.748564988124,
+        "fees": 63.263228,
+        "return_pct": 7.283154
+      },
+      "SIDEWAYS_BEAR_RANGE": {
+        "rows": 98058,
+        "trades": 306,
+        "buys": 153,
+        "sells": 153,
+        "start_equity": 10756.748564988124,
+        "end_equity": 10843.812525876743,
+        "fees": 205.945448,
+        "return_pct": 0.809389
+      },
+      "BEAR_DUMP": {
+        "rows": 19215,
+        "trades": 38,
+        "buys": 19,
+        "sells": 19,
+        "start_equity": 10730.320801697631,
+        "end_equity": 10561.065790071438,
+        "fees": 3.133274,
+        "return_pct": -1.577353
+      },
+      "BEAR_TREND": {
+        "rows": 141601,
+        "trades": 491,
+        "buys": 247,
+        "sells": 244,
+        "start_equity": 10730.381706594424,
+        "end_equity": 10696.987958463806,
+        "fees": 150.722979,
+        "return_pct": -0.311207
+      },
+      "HIGH_VOL_REVERSAL": {
+        "rows": 37490,
+        "trades": 96,
+        "buys": 49,
+        "sells": 47,
+        "start_equity": 10740.332530154235,
+        "end_equity": 10713.91880175689,
+        "fees": 75.533833,
+        "return_pct": -0.24593
+      }
+    },
+    "executor_metadata": {
+      "executor_version": "pmv4_strict_champion_contract_executor_0_1_0",
+      "live_equivalent_execution": true,
+      "strict_champion_contract": true,
+      "family_inferred_rules_allowed": false,
+      "tester_contains_strategy_logic": false,
+      "intended_users": [
+        "full_validation",
+        "future_live_bot"
+      ],
+      "principle": "Execute only explicit champion rules/parameters plus mechanical execution safeguards."
+    }
+  },
+  "true_original_active_complete": {
+    "ok": true,
+    "mode": "complete",
+    "target_regime": null,
+    "windows_used": 75,
+    "rows_processed": 524894,
+    "trade_count": 1632,
+    "completed_round_trips": 816,
+    "fees_paid": 1102.277232,
+    "max_drawdown_pct": -4.487151,
+    "money_proof": {
+      "annualized_apr_percent": 1.355338,
+      "total_return_percent": 6.966823,
+      "ending_equity": 10696.682277
+    },
+    "apr_percent": 1.355338,
+    "total_return_percent": 6.966823,
+    "ending_equity": 10696.682277,
+    "blocked_counts": {
+      "explicit_entry_rule": 397720,
+      "explicit_cooldown_active": 75424,
+      "position_open_no_explicit_dca_permission": 43048,
+      "cash_protection_no_position": 7071
+    },
+    "per_regime": {
+      "BULL_IMPULSE": {
+        "rows": 38635,
+        "trades": 85,
+        "buys": 43,
+        "sells": 42,
+        "start_equity": 10000.0,
+        "end_equity": 10980.786867290033,
+        "fees": 370.331863,
+        "return_pct": 9.807869
+      },
+      "CRASH": {
+        "rows": 7074,
+        "trades": 3,
+        "buys": 0,
+        "sells": 3,
+        "start_equity": 10034.759546064097,
+        "end_equity": 10875.52954324965,
+        "fees": 1.607593,
+        "return_pct": 8.378576
+      },
+      "SIDEWAYS_BULL_RANGE": {
+        "rows": 173717,
+        "trades": 566,
+        "buys": 282,
+        "sells": 284,
+        "start_equity": 10034.759546064097,
+        "end_equity": 10837.038757667435,
+        "fees": 231.433468,
+        "return_pct": 7.995002
+      },
+      "BULL_PULLBACK": {
+        "rows": 9104,
+        "trades": 46,
+        "buys": 23,
+        "sells": 23,
+        "start_equity": 10026.502941807797,
+        "end_equity": 10756.748564988124,
+        "fees": 63.263228,
+        "return_pct": 7.283154
+      },
+      "SIDEWAYS_BEAR_RANGE": {
+        "rows": 98058,
+        "trades": 306,
+        "buys": 153,
+        "sells": 153,
+        "start_equity": 10756.748564988124,
+        "end_equity": 10843.812525876743,
+        "fees": 205.945448,
+        "return_pct": 0.809389
+      },
+      "BEAR_DUMP": {
+        "rows": 19215,
+        "trades": 38,
+        "buys": 19,
+        "sells": 19,
+        "start_equity": 10730.320801697631,
+        "end_equity": 10561.065790071438,
+        "fees": 3.133274,
+        "return_pct": -1.577353
+      },
+      "BEAR_TREND": {
+        "rows": 141601,
+        "trades": 491,
+        "buys": 247,
+        "sells": 244,
+        "start_equity": 10730.381706594424,
+        "end_equity": 10696.987958463806,
+        "fees": 150.722979,
+        "return_pct": -0.311207
+      },
+      "HIGH_VOL_REVERSAL": {
+        "rows": 37490,
+        "trades": 96,
+        "buys": 49,
+        "sells": 47,
+        "start_equity": 10740.332530154235,
+        "end_equity": 10713.91880175689,
+        "fees": 75.533833,
+        "return_pct": -0.24593
+      }
+    },
+    "executor_metadata": {
+      "executor_version": "pmv4_strict_champion_contract_executor_0_1_0",
+      "live_equivalent_execution": true,
+      "strict_champion_contract": true,
+      "family_inferred_rules_allowed": false,
+      "tester_contains_strategy_logic": false,
+      "intended_users": [
+        "full_validation",
+        "future_live_bot"
+      ],
+      "principle": "Execute only explicit champion rules/parameters plus mechanical execution safeguards."
+    }
+  },
+  "current_seed_complete": {
+    "ok": true,
+    "mode": "complete",
+    "target_regime": null,
+    "windows_used": 75,
+    "rows_processed": 524894,
+    "trade_count": 1614,
+    "completed_round_trips": 807,
+    "fees_paid": 1366.58125,
+    "max_drawdown_pct": -5.59199,
+    "money_proof": {
+      "annualized_apr_percent": 2.6708,
+      "total_return_percent": 14.094837,
+      "ending_equity": 11409.483662
+    },
+    "apr_percent": 2.6708,
+    "total_return_percent": 14.094837,
+    "ending_equity": 11409.483662,
+    "blocked_counts": {
+      "explicit_entry_rule": 397738,
+      "explicit_cooldown_active": 75228,
+      "position_open_no_explicit_dca_permission": 43245,
+      "cash_protection_no_position": 7070
+    },
+    "per_regime": {
+      "BULL_IMPULSE": {
+        "rows": 38635,
+        "trades": 85,
+        "buys": 43,
+        "sells": 42,
+        "start_equity": 10000.0,
+        "end_equity": 11745.498336097025,
+        "fees": 571.73049,
+        "return_pct": 17.454983
+      },
+      "CRASH": {
+        "rows": 7074,
+        "trades": 4,
+        "buys": 0,
+        "sells": 4,
+        "start_equity": 10046.151777182326,
+        "end_equity": 11595.586314236538,
+        "fees": 2.095106,
+        "return_pct": 15.423165
+      },
+      "SIDEWAYS_BULL_RANGE": {
+        "rows": 173717,
+        "trades": 549,
+        "buys": 274,
+        "sells": 275,
+        "start_equity": 10046.151777182326,
+        "end_equity": 11560.003525772006,
+        "fees": 238.851411,
+        "return_pct": 15.068972
+      },
+      "BULL_PULLBACK": {
+        "rows": 9104,
+        "trades": 46,
+        "buys": 23,
+        "sells": 23,
+        "start_equity": 10040.097432977234,
+        "end_equity": 11197.580135334982,
+        "fees": 95.952278,
+        "return_pct": 11.5286
+      },
+      "SIDEWAYS_BEAR_RANGE": {
+        "rows": 98058,
+        "trades": 304,
+        "buys": 152,
+        "sells": 152,
+        "start_equity": 11197.580135334982,
+        "end_equity": 11563.095419116335,
+        "fees": 216.434312,
+        "return_pct": 3.264235
+      },
+      "BEAR_DUMP": {
+        "rows": 19215,
+        "trades": 38,
+        "buys": 19,
+        "sells": 19,
+        "start_equity": 11178.70029437094,
+        "end_equity": 10999.565606849745,
+        "fees": 3.263549,
+        "return_pct": -1.602464
+      },
+      "BEAR_TREND": {
+        "rows": 141601,
+        "trades": 491,
+        "buys": 247,
+        "sells": 244,
+        "start_equity": 11178.763744252848,
+        "end_equity": 11409.80971366771,
+        "fees": 157.537963,
+        "return_pct": 2.066829
+      },
+      "HIGH_VOL_REVERSAL": {
+        "rows": 37490,
+        "trades": 96,
+        "buys": 49,
+        "sells": 47,
+        "start_equity": 11183.723759937197,
+        "end_equity": 11427.868787961905,
+        "fees": 80.390234,
+        "return_pct": 2.183039
+      }
+    },
+    "executor_metadata": {
+      "executor_version": "pmv4_strict_champion_contract_executor_0_1_0",
+      "live_equivalent_execution": true,
+      "strict_champion_contract": true,
+      "family_inferred_rules_allowed": false,
+      "tester_contains_strategy_logic": false,
+      "intended_users": [
+        "full_validation",
+        "future_live_bot"
+      ],
+      "principle": "Execute only explicit champion rules/parameters plus mechanical execution safeguards."
+    }
+  },
+  "latest_complete": {
+    "ok": true,
+    "mode": "complete",
+    "target_regime": null,
+    "windows_used": 75,
+    "rows_processed": 524894,
+    "trade_count": 1614,
+    "completed_round_trips": 807,
+    "fees_paid": 1366.58125,
+    "max_drawdown_pct": -5.59199,
+    "money_proof": {
+      "annualized_apr_percent": 2.6708,
+      "total_return_percent": 14.094837,
+      "ending_equity": 11409.483662
+    },
+    "apr_percent": 2.6708,
+    "total_return_percent": 14.094837,
+    "ending_equity": 11409.483662,
+    "blocked_counts": {
+      "explicit_entry_rule": 397738,
+      "explicit_cooldown_active": 75228,
+      "position_open_no_explicit_dca_permission": 43245,
+      "cash_protection_no_position": 7070
+    },
+    "per_regime": {
+      "BULL_IMPULSE": {
+        "rows": 38635,
+        "trades": 85,
+        "buys": 43,
+        "sells": 42,
+        "start_equity": 10000.0,
+        "end_equity": 11745.498336097025,
+        "fees": 571.73049,
+        "return_pct": 17.454983
+      },
+      "CRASH": {
+        "rows": 7074,
+        "trades": 4,
+        "buys": 0,
+        "sells": 4,
+        "start_equity": 10046.151777182326,
+        "end_equity": 11595.586314236538,
+        "fees": 2.095106,
+        "return_pct": 15.423165
+      },
+      "SIDEWAYS_BULL_RANGE": {
+        "rows": 173717,
+        "trades": 549,
+        "buys": 274,
+        "sells": 275,
+        "start_equity": 10046.151777182326,
+        "end_equity": 11560.003525772006,
+        "fees": 238.851411,
+        "return_pct": 15.068972
+      },
+      "BULL_PULLBACK": {
+        "rows": 9104,
+        "trades": 46,
+        "buys": 23,
+        "sells": 23,
+        "start_equity": 10040.097432977234,
+        "end_equity": 11197.580135334982,
+        "fees": 95.952278,
+        "return_pct": 11.5286
+      },
+      "SIDEWAYS_BEAR_RANGE": {
+        "rows": 98058,
+        "trades": 304,
+        "buys": 152,
+        "sells": 152,
+        "start_equity": 11197.580135334982,
+        "end_equity": 11563.095419116335,
+        "fees": 216.434312,
+        "return_pct": 3.264235
+      },
+      "BEAR_DUMP": {
+        "rows": 19215,
+        "trades": 38,
+        "buys": 19,
+        "sells": 19,
+        "start_equity": 11178.70029437094,
+        "end_equity": 10999.565606849745,
+        "fees": 3.263549,
+        "return_pct": -1.602464
+      },
+      "BEAR_TREND": {
+        "rows": 141601,
+        "trades": 491,
+        "buys": 247,
+        "sells": 244,
+        "start_equity": 11178.763744252848,
+        "end_equity": 11409.80971366771,
+        "fees": 157.537963,
+        "return_pct": 2.066829
+      },
+      "HIGH_VOL_REVERSAL": {
+        "rows": 37490,
+        "trades": 96,
+        "buys": 49,
+        "sells": 47,
+        "start_equity": 11183.723759937197,
+        "end_equity": 11427.868787961905,
+        "fees": 80.390234,
+        "return_pct": 2.183039
+      }
+    },
+    "executor_metadata": {
+      "executor_version": "pmv4_strict_champion_contract_executor_0_1_0",
+      "live_equivalent_execution": true,
+      "strict_champion_contract": true,
+      "family_inferred_rules_allowed": false,
+      "tester_contains_strategy_logic": false,
+      "intended_users": [
+        "full_validation",
+        "future_live_bot"
+      ],
+      "principle": "Execute only explicit champion rules/parameters plus mechanical execution safeguards."
+    }
+  },
+  "banked_regimes": [
+    "BULL_IMPULSE",
+    "BULL_PULLBACK",
+    "HIGH_VOL_REVERSAL",
+    "SIDEWAYS_BEAR_RANGE",
+    "SIDEWAYS_BULL_RANGE"
+  ],
+  "banked_promotions_count": 5,
+  "current_processes": [],
+  "champion_progress": [
+    {
+      "regime": "BEAR_TREND",
+      "variable": "min_bars_between_buys",
+      "no_improve": 6,
+      "banked": false,
+      "orig_reg_ret": "-0.3112%",
+      "curr_reg_ret": "2.0668%",
+      "bank_reg_ret": "",
+      "delta": "",
+      "champion_id": "PMV3_BEAR_TREND_scrooge_conservative_7891437451_SCROOGE_cooldown_200_C0001_20260523_142635"
+    },
+    {
+      "regime": "SIDEWAYS_BEAR_RANGE",
+      "variable": "min_bars_between_buys",
+      "no_improve": 3,
+      "banked": true,
+      "orig_reg_ret": "0.8094%",
+      "curr_reg_ret": "3.2642%",
+      "bank_reg_ret": "3.2642%",
+      "delta": "2.4548%",
+      "champion_id": "PMV3_SIDEWAYS_BEAR_RANGE_scrooge_aggressive_guarded_84AC925E68_SCROOGE_cooldown_150_C0001_20260523_142837_HAWKEYE_profit_target_pct_up_S1_C0001_20260523_200851"
+    },
+    {
+      "regime": "BEAR_DUMP",
+      "variable": "min_bars_between_buys",
+      "no_improve": 6,
+      "banked": false,
+      "orig_reg_ret": "-1.5774%",
+      "curr_reg_ret": "-1.6025%",
+      "bank_reg_ret": "",
+      "delta": "",
+      "champion_id": "PMV3_BEAR_DUMP_scrooge_aggressive_guarded_0FC202BA24_SCROOGE_size_down_50_C0001_20260523_143159_SCROOGE_profit_gate_C0001_20260523_144644_SCROOGE_selective_micro_C0001_20260523_145645_SCROOGE_cooldown_200_C0002_20260523_151110_SCROOGE_size_down_70_C0003_20260523_152301_SCROOGE_exit_profit_gate_C0001_20260523_172059"
+    },
+    {
+      "regime": "HIGH_VOL_REVERSAL",
+      "variable": "min_bars_between_buys",
+      "no_improve": 2,
+      "banked": true,
+      "orig_reg_ret": "-0.2459%",
+      "curr_reg_ret": "2.1830%",
+      "bank_reg_ret": "2.1830%",
+      "delta": "2.4290%",
+      "champion_id": "PMV3_HIGH_VOL_REVERSAL_scrooge_aggressive_guarded_1E3296B350_SCROOGE_profit_gate_C0001_20260523_150021_HAWKEYE_stop_loss_pct_down_S1_C0001_20260523_201905"
+    },
+    {
+      "regime": "SIDEWAYS_BULL_RANGE",
+      "variable": "min_bars_between_buys",
+      "no_improve": 3,
+      "banked": true,
+      "orig_reg_ret": "7.9950%",
+      "curr_reg_ret": "15.0690%",
+      "bank_reg_ret": "15.0690%",
+      "delta": "7.0740%",
+      "champion_id": "PMV3_SIDEWAYS_BULL_RANGE_scrooge_conservative_644724C5C5_SCROOGE_gentle_size_C0001_20260523_150148_HAWKEYE_profit_target_pct_up_S1_C0001_20260523_202243_HAWKEYE_profit_target_pct_up_S1_C0001_20260523_202256"
+    },
+    {
+      "regime": "BULL_PULLBACK",
+      "variable": "min_bars_between_buys",
+      "no_improve": 2,
+      "banked": true,
+      "orig_reg_ret": "7.2832%",
+      "curr_reg_ret": "11.5286%",
+      "bank_reg_ret": "11.5286%",
+      "delta": "4.2454%",
+      "champion_id": "PMV3_BULL_PULLBACK_scrooge_aggressive_guarded_6E08DE02F2_SCROOGE_profit_quality_C0001_20260523_150412_SCROOGE_gentle_cooldown_C0002_20260523_151634_HAWKEYE_buy_fraction_up_S1_C0001_20260523_202628_HAWKEYE_buy_fraction_up_S2_C0001_20260523_202640_HAWKEYE_stop_loss_pct_down_S1_C0001_20260523_202826"
+    },
+    {
+      "regime": "BULL_IMPULSE",
+      "variable": "profit_target_pct",
+      "no_improve": 1,
+      "banked": true,
+      "orig_reg_ret": "9.8079%",
+      "curr_reg_ret": "17.4550%",
+      "bank_reg_ret": "17.4550%",
+      "delta": "7.6471%",
+      "champion_id": "PM3_BULL_IMPULSE_wallace_peak_full_forward_0p875x_161bd689e071_SCROOGE_profit_quality_C0001_20260523_150528_SCROOGE_exit_trail_guard_C0001_20260523_172745_HAWKEYE_buy_fraction_up_S1_C0001_20260523_203112_HAWKEYE_buy_fraction_up_S2_C0001_20260523_203126"
+    }
+  ],
+  "updated_at": "2026-05-24T01:32:36+00:00"
+}

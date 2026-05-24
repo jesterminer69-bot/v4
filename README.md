@@ -2,4 +2,4 @@
 
 Generated site for PMV4 status and reports.
 
-Local preview: open `index.html`, `status.html`, or `scrooge_status.html`.
+Local preview: open `index.html`, `status.html`, `scrooge_status.html`, or `hawkeye_status.html`.
