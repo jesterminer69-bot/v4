@@ -1,25 +1,25 @@
 {
-  "site_generator_version": "pmv4_github_site_generator_0_2_7_hawkeye_status",
-  "generated_at": "2026-05-24T04:03:26.437480+00:00",
+  "site_generator_version": "pmv4_github_site_generator_0_2_8_gatekeeper_status",
+  "generated_at": "2026-05-24T04:24:16.249992+00:00",
   "local_only": false,
   "root": "C:\\Users\\marcg\\Documents\\kraken-bot\\profit-monkey-v4",
   "last_bot_action": {
-    "run_id": "pmv4_strict_champion_contract_20260523_222818",
-    "created_at": "2026-05-24T03:28:34+00:00",
+    "run_id": "pmv4_strict_champion_contract_20260523_232201",
+    "created_at": "2026-05-24T04:22:16+00:00",
     "action": "pmv4_native_full_chronological_validation_apr"
   },
   "tested_baseline": {
-    "run_id": "pmv4_strict_champion_contract_20260523_222818",
-    "created_at": "2026-05-24T03:28:34+00:00",
+    "run_id": "pmv4_strict_champion_contract_20260523_232201",
+    "created_at": "2026-05-24T04:22:16+00:00",
     "strict_live_equivalent": true,
-    "apr_percent": 5.222738,
-    "total_return_percent": 29.005541,
-    "max_drawdown_pct": -7.982143,
-    "trade_count": 1532,
-    "completed_round_trips": 766,
-    "fees_paid": 1963.472238,
+    "apr_percent": 5.252788,
+    "total_return_percent": 29.189955,
+    "max_drawdown_pct": -7.955307,
+    "trade_count": 1558,
+    "completed_round_trips": 779,
+    "fees_paid": 1974.233969,
     "starting_equity": 10000.0,
-    "ending_equity": 12900.554147,
+    "ending_equity": 12918.995543,
     "test_start": "2021-01-01T00:00:00+00:00",
     "test_end": "2025-12-31T23:55:00+00:00"
   },
@@ -39,13 +39,13 @@
       "stop_loss_pct": 2.2,
       "trailing_stop_pct": 3.0,
       "min_bars_between_buys": 916.0,
-      "per_regime_return_pct": -1.580998,
+      "per_regime_return_pct": -1.541481,
       "per_regime_trades": 38,
       "per_regime_rows": 19215
     },
     {
       "regime": "BEAR_TREND",
-      "champion_id": "PMV3_BEAR_TREND_scrooge_conservative_7891437451_SCROOGE_cooldown_200_C0001_20260523_142635",
+      "champion_id": "PMV3_BEAR_TREND_scrooge_conservative_7891437451_SCROOGE_cooldown_200_C0001_20260523_142635_SCROOGE_exit_fast_fail_C0001_20260523_223605",
       "family": "defensive_trend_stabilization",
       "generation": 0,
       "last_promoted_at": "2026-05-23T03:29:39+00:00",
@@ -55,11 +55,11 @@
       "buy_fraction": 0.011,
       "max_exposure": 0.0715,
       "profit_target_pct": 3.919104,
-      "stop_loss_pct": 2.4,
-      "trailing_stop_pct": 3.2,
+      "stop_loss_pct": 2.064,
+      "trailing_stop_pct": 2.944,
       "min_bars_between_buys": 472.0,
-      "per_regime_return_pct": 6.575577,
-      "per_regime_trades": 491,
+      "per_regime_return_pct": 6.686021,
+      "per_regime_trades": 511,
       "per_regime_rows": 141601
     },
     {
@@ -77,7 +77,7 @@
       "stop_loss_pct": 6.336,
       "trailing_stop_pct": 5.4,
       "min_bars_between_buys": 27.0,
-      "per_regime_return_pct": 32.823522,
+      "per_regime_return_pct": 32.854184,
       "per_regime_trades": 83,
       "per_regime_rows": 38635
     },
@@ -96,7 +96,7 @@
       "stop_loss_pct": 3.42,
       "trailing_stop_pct": 4.5,
       "min_bars_between_buys": 60.0,
-      "per_regime_return_pct": 19.358732,
+      "per_regime_return_pct": 19.370802,
       "per_regime_trades": 47,
       "per_regime_rows": 9104
     },
@@ -115,8 +115,8 @@
       "stop_loss_pct": 0.0,
       "trailing_stop_pct": 0.0,
       "min_bars_between_buys": 100000.0,
-      "per_regime_return_pct": 28.792229,
-      "per_regime_trades": 4,
+      "per_regime_return_pct": 28.92812,
+      "per_regime_trades": 3,
       "per_regime_rows": 7074
     },
     {
@@ -134,7 +134,7 @@
       "stop_loss_pct": 2.88,
       "trailing_stop_pct": 4.2,
       "min_bars_between_buys": 110.0,
-      "per_regime_return_pct": 6.69692,
+      "per_regime_return_pct": 6.896716,
       "per_regime_trades": 96,
       "per_regime_rows": 37490
     },
@@ -153,34 +153,34 @@
       "stop_loss_pct": 2.3,
       "trailing_stop_pct": 3.0,
       "min_bars_between_buys": 162.0,
-      "per_regime_return_pct": 7.825877,
+      "per_regime_return_pct": 7.910333,
       "per_regime_trades": 304,
       "per_regime_rows": 98058
     },
     {
       "regime": "SIDEWAYS_BULL_RANGE",
-      "champion_id": "PMV3_SIDEWAYS_BULL_RANGE_scrooge_conservative_644724C5C5_SCROOGE_gentle_size_C0001_20260523_150148_HAWKEYE_profit_target_pct_up_S1_C0001_20260523_202243_HAWKEYE_profit_target_pct_up_S1_C0001_20260523_202256_HAWKEYE_profit_target_pct_up_S1_C0002_20260523_205315_HAWKEYE_profit_target_pct_up_S1_C0002_20260523_205328_HAWKEYE_min_bars_between_buys_up_S1_C0003_20260523_212354_HAWKEYE_min_bars_between_buys_up_S1_C0003_20260523_212418_HAWKEYE_profit_target_pct_up_S1_C0004_20260523_215340_HAWKEYE_profit_target_pct_up_S2_C0004_20260523_215354",
+      "champion_id": "PMV3_SIDEWAYS_BULL_RANGE_scrooge_conservative_644724C5C5_SCROOGE_gentle_size_C0001_20260523_150148_HAWKEYE_profit_target_pct_up_S1_C0001_20260523_202243_HAWKEYE_profit_target_pct_up_S1_C0001_20260523_202256_HAWKEYE_profit_target_pct_up_S1_C0002_20260523_205315_HAWKEYE_profit_target_pct_up_S1_C0002_20260523_205328_HAWKEYE_min_bars_between_buys_up_S1_C0003_20260523_212354_HAWKEYE_min_bars_between_buys_up_S1_C0003_20260523_212418_HAWKEYE_profit_target_pct_up_S1_C0004_20260523_215340_HAWKEYE_profit_target_pct_up_S2_C0004_20260523_215354_SCROOGE_exit_stop_guard_C0001_20260523_225103",
       "family": "range_reversion_bull_bias_fee_aware",
       "generation": 0,
       "last_promoted_at": "2026-05-23T03:29:39+00:00",
-      "health": "hawkeye_candidate_not_promoted",
+      "health": "scrooge_candidate_not_promoted",
       "entry_rule": "range_dip",
       "exit_rule": "explicit_profit_stop_trailing_only",
       "buy_fraction": 0.0144,
       "max_exposure": 0.1035,
       "profit_target_pct": 9.212219,
-      "stop_loss_pct": 3.0,
+      "stop_loss_pct": 2.76,
       "trailing_stop_pct": 3.7,
       "min_bars_between_buys": 214.0,
-      "per_regime_return_pct": 28.437289,
-      "per_regime_trades": 468,
+      "per_regime_return_pct": 28.58838,
+      "per_regime_trades": 475,
       "per_regime_rows": 173717
     }
   ],
   "losing_regimes": [
     {
       "regime": "BEAR_DUMP",
-      "return_pct": -1.580998,
+      "return_pct": -1.541481,
       "trades": 38,
       "rows": 19215
     }
@@ -522,7 +522,7 @@
     "logical_cores": 16,
     "max_workers": 12,
     "max_cycles_without_promotion": 200,
-    "state": "running",
+    "state": "stopped_by_user",
     "cycle": 2,
     "cycles_without_promotion": 0,
     "objective_mode": "rotating",
@@ -893,7 +893,7 @@
         "principle": "Execute only explicit champion rules/parameters plus mechanical execution safeguards."
       }
     },
-    "updated_at": "2026-05-24T04:03:23+00:00",
+    "updated_at": "2026-05-24T04:13:21+00:00",
     "optimization_phase": "exit",
     "banked_regimes": [
       "BEAR_TREND",
@@ -1018,7 +1018,8 @@
         "principle": "Execute only explicit champion rules/parameters plus mechanical execution safeguards."
       }
     },
-    "phase": "SIDEWAYS_BEAR_RANGE_long_candidate",
+    "stopped_at": "2026-05-24T04:13:21+00:00",
+    "phase": "stopped_by_user",
     "champion_progress": [
       {
         "regime": "BEAR_TREND",
@@ -1052,7 +1053,7 @@
         "champion_id": "PMV3_SIDEWAYS_BEAR_RANGE_scrooge_aggressive_guarded_84AC925E68_SCROOGE_cooldown_150_C0001_20260523_142837_HAWKEYE_profit_target_pct_up_S1_C0001_20260523_200851",
         "parent_champion_id": "PMV3_SIDEWAYS_BEAR_RANGE_scrooge_aggressive_guarded_84AC925E68_SCROOGE_cooldown_150_C0001_20260523_142837",
         "is_banked": false,
-        "cycles_without_improvement": 5,
+        "cycles_without_improvement": 6,
         "banked_promotions_total": 2,
         "true_original_full_apr_percent": 5.222738,
         "current_seed_or_banked_full_apr_percent": 5.252788,
@@ -1079,7 +1080,7 @@
         "champion_id": "PMV3_BEAR_DUMP_scrooge_aggressive_guarded_0FC202BA24_SCROOGE_size_down_50_C0001_20260523_143159_SCROOGE_profit_gate_C0001_20260523_144644_SCROOGE_selective_micro_C0001_20260523_145645_SCROOGE_cooldown_200_C0002_20260523_151110_SCROOGE_size_down_70_C0003_20260523_152301_SCROOGE_exit_profit_gate_C0001_20260523_172059",
         "parent_champion_id": "PMV3_BEAR_DUMP_scrooge_aggressive_guarded_0FC202BA24_SCROOGE_size_down_50_C0001_20260523_143159_SCROOGE_profit_gate_C0001_20260523_144644_SCROOGE_selective_micro_C0001_20260523_145645_SCROOGE_cooldown_200_C0002_20260523_151110_SCROOGE_size_down_70_C0003_20260523_152301",
         "is_banked": false,
-        "cycles_without_improvement": 3,
+        "cycles_without_improvement": 6,
         "banked_promotions_total": 2,
         "true_original_full_apr_percent": 5.222738,
         "current_seed_or_banked_full_apr_percent": 5.252788,
@@ -1106,7 +1107,7 @@
         "champion_id": "PMV3_HIGH_VOL_REVERSAL_scrooge_aggressive_guarded_1E3296B350_SCROOGE_profit_gate_C0001_20260523_150021_HAWKEYE_stop_loss_pct_down_S1_C0001_20260523_201905",
         "parent_champion_id": "PMV3_HIGH_VOL_REVERSAL_scrooge_aggressive_guarded_1E3296B350_SCROOGE_profit_gate_C0001_20260523_150021",
         "is_banked": false,
-        "cycles_without_improvement": 3,
+        "cycles_without_improvement": 6,
         "banked_promotions_total": 2,
         "true_original_full_apr_percent": 5.222738,
         "current_seed_or_banked_full_apr_percent": 5.252788,
@@ -1133,7 +1134,7 @@
         "champion_id": "PMV3_SIDEWAYS_BULL_RANGE_scrooge_conservative_644724C5C5_SCROOGE_gentle_size_C0001_20260523_150148_HAWKEYE_profit_target_pct_up_S1_C0001_20260523_202243_HAWKEYE_profit_target_pct_up_S1_C0001_20260523_202256_HAWKEYE_profit_target_pct_up_S1_C0002_20260523_205315_HAWKEYE_profit_target_pct_up_S1_C0002_20260523_205328_HAWKEYE_min_bars_between_buys_up_S1_C0003_20260523_212354_HAWKEYE_min_bars_between_buys_up_S1_C0003_20260523_212418_HAWKEYE_profit_target_pct_up_S1_C0004_20260523_215340_HAWKEYE_profit_target_pct_up_S2_C0004_20260523_215354_SCROOGE_exit_stop_guard_C0001_20260523_225103",
         "parent_champion_id": "PMV3_SIDEWAYS_BULL_RANGE_scrooge_conservative_644724C5C5_SCROOGE_gentle_size_C0001_20260523_150148_HAWKEYE_profit_target_pct_up_S1_C0001_20260523_202243_HAWKEYE_profit_target_pct_up_S1_C0001_20260523_202256_HAWKEYE_profit_target_pct_up_S1_C0002_20260523_205315_HAWKEYE_profit_target_pct_up_S1_C0002_20260523_205328_HAWKEYE_min_bars_between_buys_up_S1_C0003_20260523_212354_HAWKEYE_min_bars_between_buys_up_S1_C0003_20260523_212418_HAWKEYE_profit_target_pct_up_S1_C0004_20260523_215340_HAWKEYE_profit_target_pct_up_S2_C0004_20260523_215354",
         "is_banked": true,
-        "cycles_without_improvement": 0,
+        "cycles_without_improvement": 3,
         "banked_promotions_total": 2,
         "true_original_full_apr_percent": 5.222738,
         "current_seed_or_banked_full_apr_percent": 5.252788,
@@ -1160,7 +1161,7 @@
         "champion_id": "PMV3_BULL_PULLBACK_scrooge_aggressive_guarded_6E08DE02F2_SCROOGE_profit_quality_C0001_20260523_150412_SCROOGE_gentle_cooldown_C0002_20260523_151634_HAWKEYE_buy_fraction_up_S1_C0001_20260523_202628_HAWKEYE_buy_fraction_up_S2_C0001_20260523_202640_HAWKEYE_stop_loss_pct_down_S1_C0001_20260523_202826_HAWKEYE_buy_fraction_up_S1_C0002_20260523_205632_HAWKEYE_buy_fraction_up_S2_C0002_20260523_205644_HAWKEYE_buy_fraction_up_S1_C0003_20260523_212524_HAWKEYE_buy_fraction_up_S2_C0003_20260523_212547_HAWKEYE_buy_fraction_up_S1_C0004_20260523_215657_HAWKEYE_buy_fraction_up_S2_C0004_20260523_215710",
         "parent_champion_id": "PMV3_BULL_PULLBACK_scrooge_aggressive_guarded_6E08DE02F2_SCROOGE_profit_quality_C0001_20260523_150412_SCROOGE_gentle_cooldown_C0002_20260523_151634_HAWKEYE_buy_fraction_up_S1_C0001_20260523_202628_HAWKEYE_buy_fraction_up_S2_C0001_20260523_202640_HAWKEYE_stop_loss_pct_down_S1_C0001_20260523_202826_HAWKEYE_buy_fraction_up_S1_C0002_20260523_205632_HAWKEYE_buy_fraction_up_S2_C0002_20260523_205644_HAWKEYE_buy_fraction_up_S1_C0003_20260523_212524_HAWKEYE_buy_fraction_up_S2_C0003_20260523_212547_HAWKEYE_buy_fraction_up_S1_C0004_20260523_215657",
         "is_banked": false,
-        "cycles_without_improvement": 3,
+        "cycles_without_improvement": 5,
         "banked_promotions_total": 2,
         "true_original_full_apr_percent": 5.222738,
         "current_seed_or_banked_full_apr_percent": 5.252788,
@@ -1210,15 +1211,7 @@
         "min_bars_between_buys": 27.0
       }
     ],
-    "current_processes": [
-      {
-        "worker": "main",
-        "mode": "exit_long",
-        "regime": "SIDEWAYS_BEAR_RANGE",
-        "candidate": "exit_profit_gate",
-        "status": "RUNNING"
-      }
-    ],
+    "current_processes": [],
     "banked_promotions_count": 2,
     "original_complete": {
       "ok": true,
@@ -2044,5 +2037,6 @@
     "updated_at": "2026-05-24T03:17:28+00:00",
     "last_github_publish_attempt_at": "2026-05-24T02:42:42+00:00",
     "last_github_publish_result": "failed:Command '['C:\\\\Users\\\\marcg\\\\Documents\\\\kraken-bot\\\\profit-monkey-v4\\\\UPDATE_GITHUB.bat']' timed out after 300 seconds"
-  }
+  },
+  "gatekeeper_live": {}
 }
